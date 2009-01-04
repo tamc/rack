@@ -46,6 +46,7 @@ module Rack
   autoload :ShowStatus, "rack/showstatus"
   autoload :Static, "rack/static"
   autoload :URLMap, "rack/urlmap"
+  autoload :URLRegexp, "rack/url_regexp"
   autoload :Utils, "rack/utils"
 
   autoload :MockRequest, "rack/mock"
